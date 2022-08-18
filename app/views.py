@@ -10,7 +10,7 @@ class MyView(BaseView):
     @expose('/method1/')
     @has_access
     def method1(self):
-        return 'Hello'
+        return 'Hello method1'
 
     @expose('/method2/<string:param1>')
     @has_access
